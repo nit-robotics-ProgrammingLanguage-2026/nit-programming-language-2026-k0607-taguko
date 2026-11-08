@@ -7,7 +7,7 @@ int main(void)
     /* TODO: 課題0607 */
     if (n < 0)
         printf ("NG");
-    else
+    else {
         for (int i = 0; i <= n; i ++) {
             for (int j = 0; j <= n; j ++) {
                 if ((i != j) && (i + j == n))
@@ -15,5 +15,6 @@ int main(void)
             }
         }
         printf("%d", cnt);
+    }
     return 0;
 }
